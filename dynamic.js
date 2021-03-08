@@ -1,9 +1,16 @@
-alert("Hello and Welcome to my website.In this we page you will be able to view some of the most beautiful quotes");
+alert("Hello and Welcome to my website. In this we page you will be able to view some of the most beautiful quotes");
 
 // prompt("Please enter your name");
 // prompt("Please state your age");
 
-if (confirm("You are about to join the most awesome quotes website.Are you ready?"))
+var answer=function(){
+   var ans1= prompt("2+2=")
+   var ans2=prompt("2*5=")
+}
+
+///
+
+if (confirm("You are about to join the most awesome quotes website. Are you ready?"))
 {
     alert("Here we go!")
 }
@@ -20,6 +27,7 @@ console.log(Age);
 
 if (Age!=18 && Age<18)
 {
+    answer();
     alert ("leave!")
 }
 else
